@@ -9,7 +9,7 @@ namespace BilgeAdam.Northwind.MVC.Controllers
         {
             var repo = new ProductRepository();
             var products = repo.GetAvailableProducts();
-            return View();
+            return View(products);
         }
     }
 }
