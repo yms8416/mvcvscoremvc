@@ -1,0 +1,11 @@
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.NetData\bin\Debug\BilgeAdam.Northwind.NetData.dll.config
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.NetData\bin\Debug\BilgeAdam.Northwind.NetData.dll
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.NetData\bin\Debug\BilgeAdam.Northwind.NetData.pdb
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.NetData\bin\Debug\EntityFramework.dll
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.NetData\bin\Debug\EntityFramework.SqlServer.dll
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.NetData\bin\Debug\EntityFramework.xml
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.NetData\bin\Debug\EntityFramework.SqlServer.xml
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.NetData\obj\Debug\BilgeAdam.Northwind.NetData.csprojResolveAssemblyReference.cache
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.NetData\obj\Debug\BilgeAdam.Northwind.NetData.csproj.CoreCompileInputs.cache
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.NetData\obj\Debug\BilgeAdam.Northwind.NetData.dll
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.NetData\obj\Debug\BilgeAdam.Northwind.NetData.pdb
