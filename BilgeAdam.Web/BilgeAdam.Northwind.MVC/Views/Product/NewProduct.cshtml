@@ -1,0 +1,16 @@
+﻿@model BilgeAdam.Northwind.NetData.Dtos.ProductDto
+
+<div class="row">
+    <div class="col-md-6">
+        <form action="/Product/SaveProduct" method="post">
+            <div class="input-group">
+                <label>Ürün Adı</label>
+                @Html.TextBoxFor(i => i.Name)
+            </div>
+            <button class="btn btn-primary" type="submit">
+            <span class="glyphicon glyphicon-save"></span>
+                Kaydet
+            </button>
+        </form>
+    </div>
+</div>
