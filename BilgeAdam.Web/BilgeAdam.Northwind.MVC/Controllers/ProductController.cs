@@ -6,9 +6,13 @@ namespace BilgeAdam.Northwind.MVC.Controllers
 {
     public class ProductController : Controller
     {
+        private readonly ProductRepository repo;
+        public ProductController()
+        {
+            repo = new ProductRepository();
+        }
         public ActionResult Index()
         {
-            var repo = new ProductRepository();
             var products = repo.GetAvailableProducts();
             return View(products);
         }
@@ -17,10 +21,12 @@ namespace BilgeAdam.Northwind.MVC.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public ActionResult SaveProduct(ProductDto product)
         {
-            return View();
+            repo.SaveProduct(product);
+            return RedirectToAction(nameof(Index));
         }
     }
 }

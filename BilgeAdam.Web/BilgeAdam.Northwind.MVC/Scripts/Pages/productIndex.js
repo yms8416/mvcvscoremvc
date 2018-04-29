@@ -1,3 +1,5 @@
 ﻿$(document).ready(function () {
-    $("#tblProducts").DataTable();
+    $("#tblProducts").DataTable({
+        aaSorting: []
+    });
 });
