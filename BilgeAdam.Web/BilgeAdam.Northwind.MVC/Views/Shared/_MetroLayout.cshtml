@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="~/Content/jquery.dataTables.min.css" />
     @Scripts.Render("~/bundles/modernizr")
 </head>
-<body>
+<body class="metro">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -25,7 +25,6 @@
                     <li>@Html.ActionLink("Hakkımızda", "About", "Home")</li>
                     <li>@Html.ActionLink("İletişim", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Ürünler", "Index", "Product")</li>
-                    <li>@Html.ActionLink("Müşteriler", "Index", "Customer")</li>
                 </ul>
             </div>
         </div>
@@ -34,7 +33,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Northwind - MVC</p>
+            <p>&copy; @DateTime.Now.Year - Farklı İçerik'te Bir Northwind - MVC</p>
         </footer>
     </div>
 

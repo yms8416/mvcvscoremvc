@@ -6,3 +6,16 @@
 .body-content {
     padding:15px;
 }
+
+body.metro{
+    font-family:'Times New Roman';
+}
+
+    body.metro .navbar {
+        background-color:#a51414;
+        color:#FFF;
+    }
+
+    body.metro .navbar-inverse .navbar-nav > li > a{
+        color:#FFF;
+    }
