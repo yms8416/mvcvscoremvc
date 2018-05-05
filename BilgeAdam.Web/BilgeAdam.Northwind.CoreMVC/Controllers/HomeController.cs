@@ -6,25 +6,33 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BilgeAdam.Northwind.CoreMVC.Models;
 using BilgeAdam.Northwind.CoreMVC.Models.DI;
+using BilgeAdam.Northwind.CoreData.Context;
 
 namespace BilgeAdam.Northwind.CoreMVC.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IPerson person;
+        private readonly NorthwindContext context;
 
-        public HomeController(IPerson person)
+        public HomeController(NorthwindContext context)
         {
-            this.person = person;
+            this.context = context;
         }
         public IActionResult Index()
         {
             return View();
         }
 
+        public IActionResult Products()
+        {
+            var products = context.Products.Where(i => i.UnitsInStock > 20).ToList();
+            return View(products);
+        }
+
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            
+            ViewData["Message"] = "Hakkımızda";
 
             return View();
         }

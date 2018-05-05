@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using BilgeAdam.Northwind.CoreMVC.Models.DI;
+using BilgeAdam.Northwind.CoreData.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace BilgeAdam.Northwind.CoreMVC
 {
@@ -24,6 +26,10 @@ namespace BilgeAdam.Northwind.CoreMVC
             services.AddScoped<IPerson, Teacher>();
             //services.AddTransient<IPerson, Teacher>();
             //services.AddSingleton<IPerson, Teacher>();
+
+            services.AddDbContext<NorthwindContext>((options) => {
+                options.UseSqlServer(Configuration.GetConnectionString("NorthwindConnStr"));
+            });
             services.AddMvc();
         }
 

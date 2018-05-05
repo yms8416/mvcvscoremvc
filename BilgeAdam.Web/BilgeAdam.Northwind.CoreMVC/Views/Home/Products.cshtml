@@ -1,0 +1,23 @@
+﻿@model IEnumerable<BilgeAdam.Northwind.CoreData.Models.Product>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ürün Kodu</th>
+            <th>Ürün Adı</th>
+            <th>Fiyat</th>
+            <th>Stok</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.ProductId</th>
+                <th>@item.ProductName</th>
+                <th>@item.UnitPrice</th>
+                <th>@item.UnitsInStock</th>
+            </tr>
+        }
+    </tbody>
+</table>

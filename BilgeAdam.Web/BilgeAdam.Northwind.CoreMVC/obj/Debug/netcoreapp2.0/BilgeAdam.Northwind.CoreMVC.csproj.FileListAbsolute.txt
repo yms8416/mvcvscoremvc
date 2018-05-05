@@ -9,3 +9,5 @@ C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.CoreMVC\o
 C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.CoreMVC\obj\Debug\netcoreapp2.0\BilgeAdam.Northwind.CoreMVC.AssemblyInfo.cs
 C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.CoreMVC\obj\Debug\netcoreapp2.0\BilgeAdam.Northwind.CoreMVC.dll
 C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.CoreMVC\obj\Debug\netcoreapp2.0\BilgeAdam.Northwind.CoreMVC.pdb
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.CoreMVC\bin\Debug\netcoreapp2.0\BilgeAdam.Northwind.CoreData.dll
+C:\YMS8416\mvcvscoremvc\mvcvscoremvc\BilgeAdam.Web\BilgeAdam.Northwind.CoreMVC\bin\Debug\netcoreapp2.0\BilgeAdam.Northwind.CoreData.pdb

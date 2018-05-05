@@ -4746,6 +4746,19 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "BilgeAdam.Northwind.CoreData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/BilgeAdam.Northwind.CoreData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BilgeAdam.Northwind.CoreData.dll": {}
+        }
       }
     }
   },
@@ -12528,10 +12541,16 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "BilgeAdam.Northwind.CoreData/1.0.0": {
+      "type": "project",
+      "path": "../BilgeAdam.Northwind.CoreData/BilgeAdam.Northwind.CoreData.csproj",
+      "msbuildProject": "../BilgeAdam.Northwind.CoreData/BilgeAdam.Northwind.CoreData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "BilgeAdam.Northwind.CoreData >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.7",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12568,7 +12587,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\YMS8416\\mvcvscoremvc\\mvcvscoremvc\\BilgeAdam.Web\\BilgeAdam.Northwind.CoreData\\BilgeAdam.Northwind.CoreData.csproj": {
+              "projectPath": "C:\\YMS8416\\mvcvscoremvc\\mvcvscoremvc\\BilgeAdam.Web\\BilgeAdam.Northwind.CoreData\\BilgeAdam.Northwind.CoreData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
