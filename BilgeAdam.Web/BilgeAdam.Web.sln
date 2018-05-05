@@ -5,11 +5,13 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Northwind.MVC", "BilgeAdam.Northwind.MVC\BilgeAdam.Northwind.MVC.csproj", "{87FD2BC0-6168-4761-A770-4D59E4FE337D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Northwind.CoreMVC", "BilgeAdam.Northwind.CoreMVC\BilgeAdam.Northwind.CoreMVC.csproj", "{A40DBC93-4AD0-49AF-9E36-881928F187FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.Northwind.CoreMVC", "BilgeAdam.Northwind.CoreMVC\BilgeAdam.Northwind.CoreMVC.csproj", "{A40DBC93-4AD0-49AF-9E36-881928F187FE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netFramework", "netFramework", "{25FF9C24-7ADA-465A-9389-C940C3EA3C84}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Northwind.NetData", "BilgeAdam.Northwind.NetData\BilgeAdam.Northwind.NetData.csproj", "{9523BF82-DBD9-48C1-A1B6-E7C2DFE3F489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netCore", "netCore", "{4DB2A4F7-97B0-42A7-997F-F6F70CBCC0A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{87FD2BC0-6168-4761-A770-4D59E4FE337D} = {25FF9C24-7ADA-465A-9389-C940C3EA3C84}
+		{A40DBC93-4AD0-49AF-9E36-881928F187FE} = {4DB2A4F7-97B0-42A7-997F-F6F70CBCC0A7}
 		{9523BF82-DBD9-48C1-A1B6-E7C2DFE3F489} = {25FF9C24-7ADA-465A-9389-C940C3EA3C84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

@@ -5,11 +5,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BilgeAdam.Northwind.CoreMVC.Models;
+using BilgeAdam.Northwind.CoreMVC.Models.DI;
 
 namespace BilgeAdam.Northwind.CoreMVC.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IPerson person;
+
+        public HomeController(IPerson person)
+        {
+            this.person = person;
+        }
         public IActionResult Index()
         {
             return View();
